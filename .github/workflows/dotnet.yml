@@ -1,0 +1,8 @@
+name: pr10
+on: push
+jobs:
+  date:
+    runs-on: windows-latest
+    steps:
+      - name: step1
+        uses: actions/checkout@v5.0.0
