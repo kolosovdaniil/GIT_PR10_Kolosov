@@ -7,5 +7,6 @@ jobs:
       - name: step1
         uses: actions/checkout@v5.0.0
       - name: step2
-        run: cd pr10git
-        run: dotnet run
+        run: |
+          cd pr10git
+          dotnet run
